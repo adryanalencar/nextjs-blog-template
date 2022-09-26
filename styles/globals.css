@@ -41,3 +41,26 @@ a {
 .prose a {
   @apply text-cyan-500;
 }
+
+.btn-behance { background-color: #1769ff; }
+.btn-discord { background-color: #7289da; }
+.btn-github { background-color: #333; }
+.btn-facebook { background-color: #1877f2; }
+.btn-instagram { background-color: #c13584; }
+.btn-google { background-color: #ea4335; }
+.btn-linkedin { background-color: #0077b5; }
+.btn-pinterest { background-color: #e60023; }
+.btn-vkontakte { background-color: #45668e; }
+.btn-stack-overflow { background-color: #f48024; }
+.btn-telegram { background-color: #0088cc; }
+.btn-youtube { background-color: #ff0000; }
+.btn-tikTok { background-color: #6a76ac; }
+.btn-snapchat { background-color: #f8cc1b; }
+.btn-slack { background-color: #3eb991; }
+.btn-messenger { background-color: #0084ff; }
+.btn-dribbble { background-color: #ea4c89; }
+.btn-reddit { background-color: #ff4500; }
+.btn-twitter { background-color: #1da1f2; }
+.btn-whatsapp { background-color: #128c7e; }
+.btn-twitch { background-color: #9146ff; }
+.social-button img {filter: invert(100%);}

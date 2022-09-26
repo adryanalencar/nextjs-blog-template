@@ -2,6 +2,7 @@ import type { Menu } from "types";
 import Link from "next/link";
 import menus from "data/menus";
 import { useRouter } from "next/router";
+import UserMenu from "./auth/UserMenu";
 
 const Nav = () => {
   return (
@@ -15,6 +16,12 @@ const Nav = () => {
             <NavItem menu={menu} />
           </li>
         ))}
+        <li
+            className="cursor-pointer text-base font-medium hover:text-sky-400"
+            
+          >
+            <UserMenu />
+          </li>
       </ul>
     </nav>
   );
